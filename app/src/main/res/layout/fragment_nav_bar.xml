@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.navBar" >
+
+    <ImageButton
+        android:id="@+id/ibListado"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:background="@color/amarillo"
+        android:src="@android:drawable/ic_dialog_dialer"
+        android:tint="@color/amarillo" />
+
+    <ImageButton
+        android:id="@+id/ibFavs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/amarillo"
+        android:src="@android:drawable/btn_star"
+        android:tint="#000000" />
+
+    <ImageButton
+        android:id="@+id/ibAcercaDe"
+        style="@android:style/Widget.Holo.ImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/amarillo"
+        android:src="@android:drawable/ic_menu_info_details"
+        android:tint="#000000"
+        tools:src="@android:drawable/ic_dialog_info" />
+
+</LinearLayout>
